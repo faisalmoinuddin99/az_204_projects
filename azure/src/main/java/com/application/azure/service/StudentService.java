@@ -12,4 +12,5 @@ public interface StudentService {
 
     public Optional<Boolean> removeStudentByID(int studentID) ;
 
+    public Student addStudent(Student student) ;
 }
