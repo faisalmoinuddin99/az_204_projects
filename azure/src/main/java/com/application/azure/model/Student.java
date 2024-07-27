@@ -19,9 +19,6 @@ public class Student {
     @Column(name = "student_name", length = 20, nullable = false)
     private String studentName;
 
-    @Column(name = "student_phone", length = 11, unique = true)
-    private String studentPhoneNumber;
-
     @Column(name = "student_age", length = 21)
     private int age;
 }

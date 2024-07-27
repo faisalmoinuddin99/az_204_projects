@@ -1,15 +1,16 @@
 spring:
+  output:
+    ansi:
+      enabled: ALWAYS
   datasource:
-    url: #
-    username: #
-    password: #
+    url: jdbc:sqlserver://server-student.database.windows.net:1433;database=studentDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: admin007
+    password: Faisal25march@786
   jpa:
-    show-sql: true
+    properties:
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
     hibernate:
       ddl-auto: update
-
-
-
-
+    show-sql: true
 server:
   port: 8081
