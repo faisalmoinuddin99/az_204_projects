@@ -14,4 +14,4 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 8082
+  port: 8081
