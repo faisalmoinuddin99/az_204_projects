@@ -3,7 +3,8 @@ spring:
     ansi:
       enabled: ALWAYS
   datasource:
-    url: jdbc:sqlserver://server-student.database.windows.net:1433;database=studentDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+    url: jdbc:sqlserver://serverstudent.database.windows.net:1433;database=studentDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: admin007
     password: Faisal25march@786
   jpa:
