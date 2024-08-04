@@ -2,16 +2,6 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
-  datasource:
-
-    url: jdbc:sqlserver://serverstudent.database.windows.net:1433;database=studentDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: admin007
-    password: Faisal25march@786
-  jpa:
-    properties:
-      dialect: org.hibernate.dialect.SQLServer2012Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-server:
-  port: 8081
+logging:
+  level:
+    root: info
